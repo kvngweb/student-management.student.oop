@@ -1,8 +1,13 @@
 student-management.student.oop
-Adding new students.
-Viewing student details (name, ID, and grades).
-Calculating the average grade of a students.
-// Define the Student class class Student { constructor(id, name) { this.id = id; this.name = name; this.grades = []; }
+
+1. Adding new students.
+2. Viewing student details (name, ID, and grades).
+3. Calculating the average grade of a students.
+
+
+// Define the Student class class Student 
+  {constructor(id, name) 
+  {this.id = id; this.name = name; this.grades = []; }
 
 // Add a grade to the student's record
 addGrade(grade) {
@@ -33,7 +38,8 @@ getDetails() {
 }
 }
 
-// Define the Student Management System class class StudentManagementSystem { constructor() { this.students = []; }
+// Define the Student Management System class class StudentManagementSystem
+  {constructor() { this.students = []; }
 
 // Add a new student
 addStudent(id, name) {
